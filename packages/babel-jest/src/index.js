@@ -18,6 +18,7 @@ module.exports = {
         auxiliaryCommentBefore: ' istanbul ignore next ',
         filename,
         presets: [jestPreset],
+        plugins: ['transform-es2015-modules-commonjs'],
         retainLines: true,
       }).code;
     }
