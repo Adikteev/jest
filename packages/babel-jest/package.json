@@ -9,6 +9,7 @@
   "main": "src/index.js",
   "dependencies": {
     "babel-core": "^6.0.0",
-    "babel-preset-jest": "^12.0.2"
+    "babel-preset-jest": "^12.0.2",
+    "babel-plugin-transform-es2015-modules-commonjs"
   }
 }
